@@ -3,7 +3,7 @@ const github = require("@actions/github");
 const fs = require("fs");
 
 // Load songs from JSON file
-const SONGS = JSON.parse(fs.readFileSync("songs.json", "utf8"));
+const SONGS = JSON.parse(fs.readFileSync("dist/songs.json", "utf8"));
 
 async function run() {
     try {
