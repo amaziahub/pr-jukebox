@@ -57,3 +57,26 @@ Create a songs.json file in the root of your repository with a list of songs. Fo
   }
 }
 ```
+
+---
+
+### 3. Add the Action to Your Repository
+Once the workflow and `songs.json` are in place, commit and push the changes to your repository.
+
+```bash
+git add .github/workflows/pr-jukebox.yml songs.json
+git commit -m "Set up PR Jukebox Action"
+git push origin main
+```
+
+---
+
+### 4. Test It Out
+Open a new PR in your repository and see PR Jukebox in action! It will comment with a song recommendation based on the PR title.
+
+---
+
+### Customizing the Song List
+* Add Songs: You can add more songs to the songs.json file by including new keyword-song pairs.
+* Change Keywords: The keywords are matched to the PR title, so feel free to update them to suit your needs.
+* Default Song: If no match is found, the action will post a default song (e.g., "Bohemian Rhapsody").
