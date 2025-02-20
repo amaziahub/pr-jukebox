@@ -31831,8 +31831,15 @@ const core = __nccwpck_require__(8984);
 const github = __nccwpck_require__(632);
 const fs = __nccwpck_require__(9896);
 
-// Load songs from JSON file
-const SONGS = JSON.parse(fs.readFileSync("songs.json", "utf8"));
+const path = __nccwpck_require__(6928);
+
+const songsPath = __nccwpck_require__.ab + "songs.json";
+
+if (!fs.existsSync(__nccwpck_require__.ab + "songs.json")) {
+    throw new Error(`songs.json not found at ${songsPath}`);
+}
+
+const SONGS = JSON.parse(fs.readFileSync(__nccwpck_require__.ab + "songs.json", "utf8"));
 
 async function run() {
     try {
