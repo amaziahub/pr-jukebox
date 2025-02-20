@@ -1,0 +1,38 @@
+{
+    "fix": {
+      "title": "Fix You",
+      "artist": "Coldplay",
+      "link": "https://www.youtube.com/watch?v=k4V3Mo61fJM"
+    },
+    "feature": {
+      "title": "Don't Stop Believin'",
+      "artist": "Journey",
+      "link": "https://www.youtube.com/watch?v=1k8craCGpgs"
+    },
+    "refactor": {
+      "title": "Work",
+      "artist": "Rihanna",
+      "link": "https://www.youtube.com/watch?v=PaGDeAyyN5k"
+    },
+    "performance": {
+      "title": "Faster",
+      "artist": "Within Temptation",
+      "link": "https://www.youtube.com/watch?v=9nSKK5U8yDw"
+    },
+    "security": {
+      "title": "Bad Boys",
+      "artist": "Inner Circle",
+      "link": "https://www.youtube.com/watch?v=djV11Xbc914"
+    },
+    "ui": {
+      "title": "Stronger",
+      "artist": "Kanye West",
+      "link": "https://www.youtube.com/watch?v=PsO6ZnUZI0g"
+    },
+    "default": {
+      "title": "Happy",
+      "artist": "Pharrell Williams",
+      "link": "https://www.youtube.com/watch?v=y6Sxv-sUYtM"
+    }
+  }
+  

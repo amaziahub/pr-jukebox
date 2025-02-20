@@ -2,8 +2,15 @@ const core = require("@actions/core");
 const github = require("@actions/github");
 const fs = require("fs");
 
-// Load songs from JSON file
-const SONGS = JSON.parse(fs.readFileSync("songs.json", "utf8"));
+const path = require("path");
+
+const songsPath = path.join(__dirname, "songs.json");
+
+if (!fs.existsSync(songsPath)) {
+    throw new Error(`songs.json not found at ${songsPath}`);
+}
+
+const SONGS = JSON.parse(fs.readFileSync(songsPath, "utf8"));
 
 async function run() {
     try {
