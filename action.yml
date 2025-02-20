@@ -1,0 +1,20 @@
+name: "PR Jukebox"
+description: "Suggests a song for each PR based on its title."
+author: "Amazia Gur"
+
+inputs:
+  github-token:
+    description: "GitHub Token"
+    required: true
+
+runs:
+  using: "node16"
+  main: "index.js"
+
+permissions:
+  issues: write
+  pull-requests: read
+
+branding:
+  icon: "music"
+  color: "blue"
