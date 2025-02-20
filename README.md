@@ -3,9 +3,9 @@ PR Jukebox is a fun GitHub Action that automatically comments with a song recomm
 
 --- 
 ## Features
-* 🎶 Song Recommendations: Automatically posts a song recommendation in the PR based on its title.
-* 🎧 YouTube Link: The comment includes a clickable link to listen to the song on YouTube.
-* 🎤 Customizable Songs: Add your own songs to the songs.json file and match them to keywords in PR titles.
+* **🎶 Song Recommendations**: Automatically posts a song recommendation in the PR based on its title.
+* **🎧 YouTube Link**: The comment includes a clickable link to listen to the song on YouTube.
+* **🎤 Customizable Songs**: Add your own songs to the songs.json file and match them to keywords in PR titles.
 
 ---
 ## Setup
