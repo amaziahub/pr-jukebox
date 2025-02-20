@@ -7,6 +7,8 @@ on:
 jobs:
   suggest-song:
     runs-on: ubuntu-latest
+    permissions:
+        pull-requests: write
     steps:
       - name: "Run PR Jukebox"
         uses: amaziahub/pr-jukebox@main
