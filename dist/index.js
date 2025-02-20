@@ -31862,7 +31862,7 @@ async function run() {
         }
 
         // Comment message
-        const message = `🎶 **PR Jukebox** - ` + `🎧 [${selectedSong.title}] *"${selectedSong.title}"*`;
+        const message = `🎶 **PR Jukebox** - 🎧 [${selectedSong.title}](${selectedSong.link}) *"${selectedSong.title}"*`;
 
         // Post comment on PR
         await octokit.rest.issues.createComment({
