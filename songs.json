@@ -1,4 +1,14 @@
 {
+    "ci": {
+        "title": "Do I Wanna Know?",
+        "artist": "Arctic Monkeys",
+        "link": "https://www.youtube.com/watch?v=bpOSxM0rNPM"
+    },
+    "bug": {
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "link": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ"
+    },
     "fix": {
       "title": "Fix You",
       "artist": "Coldplay",
@@ -10,9 +20,9 @@
       "link": "https://www.youtube.com/watch?v=1k8craCGpgs"
     },
     "refactor": {
-      "title": "Work",
-      "artist": "Rihanna",
-      "link": "https://www.youtube.com/watch?v=PaGDeAyyN5k"
+      "title": "I Will Always Love You",
+      "artist": "Whitney Houston",
+      "link": "https://www.youtube.com/watch?v=IrZttcehxVY"
     },
     "performance": {
       "title": "Faster",
@@ -20,19 +30,19 @@
       "link": "https://www.youtube.com/watch?v=9nSKK5U8yDw"
     },
     "security": {
-      "title": "Bad Boys",
-      "artist": "Inner Circle",
-      "link": "https://www.youtube.com/watch?v=djV11Xbc914"
+      "title": "Go Your Own Way",
+      "artist": "Fleetwood Mac",
+      "link": "https://www.youtube.com/watch?v=oiosqtFLBBA"
     },
     "ui": {
-      "title": "Stronger",
-      "artist": "Kanye West",
-      "link": "https://www.youtube.com/watch?v=PsO6ZnUZI0g"
+      "title": "Lonely Boy",
+      "artist": "The Black Keys",
+      "link": "https://www.youtube.com/watch?v=a_426RiwST8"
     },
     "default": {
-      "title": "Happy",
-      "artist": "Pharrell Williams",
-      "link": "https://www.youtube.com/watch?v=y6Sxv-sUYtM"
+        "title": "Stairway to Heaven",
+        "artist": "Led Zeppelin",
+        "link": "https://www.youtube.com/watch?v=QkF3oxziUI4"
     }
   }
   
