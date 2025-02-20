@@ -9,8 +9,8 @@ inputs:
 
 runs:
   using: "node16"
-  main: "index.js"
-  post: "songs.json"
+  main: "dist/index.js"
+  post: "dist/songs.json"
 
 permissions:
   issues: write
