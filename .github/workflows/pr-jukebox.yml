@@ -1,0 +1,14 @@
+name: "PR Jukebox"
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  suggest-song:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Run PR Jukebox"
+        uses: amaziahub/pr-jukebox@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
