@@ -11,7 +11,7 @@ PR Jukebox is a fun GitHub Action that automatically comments with a song recomm
 ## Setup
 To set up PR Jukebox in your GitHub repository, follow these steps:
 
-1. Add pr-jukebox Action to Your Workflow
+### 1. Add pr-jukebox Action to Your Workflow
 Create a new GitHub Action workflow file in your repository, or update an existing one. For example, create `.github/workflows/pr-jukebox.yml` with the following content:
 
 ```yml
@@ -35,3 +35,25 @@ jobs:
 This configuration will trigger the action every time a PR is opened, edited, or reopened.
 
 ---
+
+### 2. Add Your Song List (`songs.json`)
+Create a songs.json file in the root of your repository with a list of songs. For example:
+```json
+{
+  "default": {
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "link": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ"
+  },
+  "love": {
+    "title": "I Will Always Love You",
+    "artist": "Whitney Houston",
+    "link": "https://www.youtube.com/watch?v=IrZttcehxVY"
+  },
+  "rock": {
+    "title": "Stairway to Heaven",
+    "artist": "Led Zeppelin",
+    "link": "https://www.youtube.com/watch?v=QkF3oxziUI4"
+  }
+}
+```
